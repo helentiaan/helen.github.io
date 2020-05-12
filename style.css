@@ -21,8 +21,8 @@ nav{
     min-height: 8wh;
     z-index: 1;
     background-color: rgb(130, 200, 202);
-    padding: 0px;
 }
+
 .logo{
     margin-top: 10px;
     margin-left:0;
@@ -35,6 +35,7 @@ nav{
 .logo a{
     color:rgb(226, 226, 226);
     list-style-type: none;
+    text-decoration: none;
 }
 .nav-links{
     margin-top: 20px;
@@ -56,15 +57,16 @@ nav{
     justify-content: center;
     font-family: 'Amatic SC', cursive;
 }
-.nav-links a:hover,
-.nav-links li a.active{
+.nav-links a:hover{
     color: black;
-
+}
+.nav-links li.active{
+    color: black;
 }
 .burger{
+    position: relative;
     margin-top: 13px;
-    margin-right: 0;
-    display:none;
+    display: none;
     cursor: pointer;
 }
 .burger div{
@@ -87,16 +89,17 @@ nav{
     .nav-links{
         position: absolute;
         right: 0vh;
-        height: 20vh;
-        width: 20vh;
+        height: 35vh;
+        width: 100%;
         top: 0vh;
-        background-color:rgb(130, 200, 202);
+        background-color: rgb(130, 200, 202);
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         transition: transform 0.5s ease-in;
+        /* border-radius: 10px; */
     }
     .nav-links li{
         opacity: 0;
