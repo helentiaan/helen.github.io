@@ -60,7 +60,7 @@ nav{
 .nav-links a:hover{
     color: black;
 }
-.nav-links li.active{
+.nav-links li a.active{
     color: black;
 }
 .burger{
