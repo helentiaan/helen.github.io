@@ -108,6 +108,10 @@ nav{
         display: block;
 
     }
+
+    .skills .bar{
+        width: 80vw;
+    }
 }
 .nav-active{
     transform: translateX(0%);
@@ -229,7 +233,6 @@ hr.light{
     font-size: 6px;
     list-style: none;
     padding: 0;
-    width:500px;
     margin: 60px auto;
     color: #e97497;
 }
@@ -244,7 +247,7 @@ body{
 .bar{
     background: #beb8c0;
     display: block;
-    width: 70vh;
+    width: 40vw;
     height: 6px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius:3px;
