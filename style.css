@@ -20,7 +20,7 @@ nav{
     flex-wrap: wrap;
     min-height: 8wh;
     z-index: 1;
-    background-color: rgb(130, 200, 202);
+    background-color: rgb(2, 150, 142);
 }
 
 .logo{
@@ -92,7 +92,8 @@ nav{
         height: 35vh;
         width: 100%;
         top: 0vh;
-        background-color: rgb(130, 200, 202);
+        /* rgb(130, 200, 202) */
+        background-color: rgb(2, 150, 142);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -143,6 +144,7 @@ nav{
 .container-fluid{
     margin: auto;
     padding: auto;
+
 
 }
 .btn-primary{
@@ -245,7 +247,7 @@ body{
     margin: 20px 0;
 }
 .bar{
-    background: #beb8c0;
+    background: #dfd7e2;
     display: block;
     width: 40vw;
     height: 6px;
@@ -281,11 +283,11 @@ body{
     animation: css 2s;
 }
 .react{
-    width:70%;
+    width:75%;
     animation: react 2s;
 }
 .javascript{
-    width:75%;
+    width:80%;
     animation: javascript 2s;
 }
 .r{
@@ -309,6 +311,15 @@ body{
     animation: cpp 2s;
 }
 
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+} 
+
 @keyframes html{
     0%{
         width: 0%;
@@ -323,7 +334,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 60%;
+        width: 75%;
     }
 }
 @keyframes c{
@@ -331,7 +342,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 30%;
+        width: 80%;
     }
 }
 @keyframes python{
@@ -339,7 +350,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 85%;
     }
 }
 
@@ -348,7 +359,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 75%;
     }
 }
 @keyframes cpp{
@@ -356,7 +367,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 90%;
     }
 }
 @keyframes linux{
@@ -364,7 +375,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 75%;
     }
 }
 @keyframes sql{
@@ -372,7 +383,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 75%;
     }
 }
 @keyframes r{
@@ -380,7 +391,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 75%;
     }
 }
 @keyframes javascript{
@@ -388,7 +399,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 @keyframes data{
@@ -396,7 +407,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 85%;
     }
 }
 @keyframes c{
@@ -404,7 +415,7 @@ body{
         width: 0%;
     }
     100%{
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -470,4 +481,8 @@ body{
 }
 .slogan h3{
     font-family: 'Architects Daughter', cursive;
+}
+.skills-box{
+    margin-left: 5vw;
+
 }
